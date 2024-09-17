@@ -86,12 +86,6 @@ function validateArgs(args) {
     console.error("Example: rock paper scissors (you can't repeat moves like 'rock rock scissors')");
     process.exit(1);
   }
-    // Check for duplicate moves
-    if (new Set(args).size !== args.length) {
-      console.log('Error: Moves must be unique.');
-      console.log('Example: rock paper scissors pen eraser');
-      return;
-    }
 
 }
 
